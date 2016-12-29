@@ -1,3 +1,6 @@
-# Cabal and Stack: The Mish Mash that is the current state of Haskell build tools
+# Alex Milkov
 
-Actually I suppose that title is misleading. I haven't waded through cabal that much. Mostly because I haven't found a need to. Once I wrapped my head around stack enough (an ongoing process), I never had the need to fiddle with cabal. However, with regard to creating new projects, you'll find that as of now, stack and cabal are inextricably intertwined.
+I currently a developer at The Weather Company and am getting my masters from my soul crushing alma-mater, Georgia Tech. This is a series of shameless rants interspersed hopefully with some usefull information
+
+[Cabal and Stack: The Mish Mash that is the current state of Haskell build tools](cabal-stack.md]
+
