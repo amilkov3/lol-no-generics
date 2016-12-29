@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+# Cabal and Stack: The Mish Mash that is the current state of Haskell build tools
 
-You can use the [editor on GitHub](https://github.com/amilkov3/lol-no-generics/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/amilkov3/lol-no-generics/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Actually I suppose that title is misleading. I haven't waded through cabal that much. Mostly because I haven't found a need to. Once I wrapped my head around stack enough (an ongoing process), I never had the need to fiddle with cabal. However, with regard to creating new projects, you'll find that as of now, stack and cabal are inextricably intertwined.
