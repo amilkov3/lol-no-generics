@@ -15,12 +15,40 @@ core
 build.sbt
 ```
 
-Here's a minimal `build.sbt`
+You'll first need to create a Sonatype JIRA account [here](https://issues.sonatype.org) and then
+create an issue for your project https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134. Once
+you see a comment on the ticket appear that reads something like this:
+
+```
+Configuration has been prepared, now you can:
+
+Deploy snapshot artifacts into repository https://oss.sonatype.org/content/repositories/snapshots
+Deploy release artifacts into the staging repository https://oss.sonatype.org/service/local/staging/deploy/maven2
+Promote staged artifacts into repository 'Releases'
+Download snapshot and release artifacts from group https://oss.sonatype.org/content/groups/public
+Download snapshot, release and staged artifacts from staging group https://oss.sonatype.org/content/groups/staging
+please comment on this ticket when you promoted your first release, thanks
+```
+
+You're ready to deploy your project
+
+### In-project config
+
+You'll need the following plugins in `plugins.sbt`:
+
+```scala
+addSbtPlugin("com.dwijnand" % "sbt-travisci" % "<version>")
+addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "<version>")
+addSbtPlugin("com.jsuereth" % "sbt-pgp" % "<version>")
+addSbtPlugin("com.github.gseitz" % "sbt-release" % "<version>")
+```
+
+Here's a minimal `build.sbt`:
 
 ```scala
 import ReleaseTransformations._
 
-organization in ThisBuild := "your.root.package.path"
+organization in ThisBuild := "domain.from.jira.ticket"
 
 lazy val root = project.in(file("."))
   .settings(noPublishSettings: _*)
@@ -92,17 +120,41 @@ lazy val releasePublishSettings = Seq(
 > `dependsOn(core % "compile->compile;test->test")` allows you to use common test
 >  code utilities defined in the `core` module in the `foo` module
 
-
-You'll need the following plugins in `plugins.sbt`:
+`sbt-release` by default will read the version to release from a `version.sbt` file in the root
+of your project:
 
 ```scala
-addSbtPlugin("com.dwijnand" % "sbt-travisci" % "<version>")
-addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "<version>")
-addSbtPlugin("com.jsuereth" % "sbt-pgp" % "<version>")
-addSbtPlugin("com.github.gseitz" % "sbt-release" % "<version>")
+version in ThisBuild := "0.1.0"
 ```
 
+### Familiarizing yourself with the sonatype online explorer
+
+If you add `-SNAPSHOT` to the end of
 
 
 
+### Out-of-project config
+
+#### Generate PGP private/public key
+
+You'll need this to sign your artifacts when publishing them
+to the staging repo. In your project dir, enter an sbt shell
+
+```
+> set pgpReadOnly := false
+> pgp-cmd gen-key
+```
+
+#### Add sonatype credentials
+
+Create a file ~/.sbt/<your-project-sbt-major-minor-version>/sonatype.sbt with the following:
+
+```scala
+credentials += Credentials(
+  "Sonatype Nexus Repository Manager",
+  "oss.sonatype.org",
+  "<sonatype-username>",
+  "<sonatype-password>"
+)
+```
 
