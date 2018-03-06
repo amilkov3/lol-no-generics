@@ -1,7 +1,7 @@
 
 ## Deploy sbt projects to Sonatype (Maven Central)
 
-We're gonna use the following sample project tree
+We're gonna use the following sample project tree:
 
 ```
 foo
@@ -56,11 +56,11 @@ lazy val root = project.in(file("."))
 
 lazy val core = project.in(file("core"))
   .settings(releasePublishSettings: _*)
-  .settings(name := "mon-core")
+  .settings(name := "core")
 
 lazy val foo = project.in(file("foo"))
   .settings(releasePublishSettings: _*)
-  .settings(name := "mon-cloudwatch")
+  .settings(name := "foo")
   .dependsOn(core % "compile->compile;test->test")
 
 /** We dont want to publish the `root` module */
@@ -127,10 +127,35 @@ of your project:
 version in ThisBuild := "0.1.0"
 ```
 
+If you add `-SNAPSHOT` to the end of your version `sbt-release` will put the packaged artifacts
+in the `Snapshots` repo in maven central. More on how the repos in maven central are set up in a second
+
 ### Familiarizing yourself with the sonatype online explorer
 
-If you add `-SNAPSHOT` to the end of
+[Here](https://oss.sonatype.org), log in. Click on `Repositories` in left hand pane and search in the upper right corner for repo
+with `Repository` name just `Snapshots`. This is maven's snapshot repo, where versions ending with `-SNAPSHOT` will go
 
+The repo named just `Releases` is where versions of the form `<major>.<minor>.<patch>` will go. When you enter `+publishSigned`
+in the sbt shell your artifacts will first be placed in a staging repository. You can find it towards the bottom of the list when
+you click on `Staging Repositories` in the left hand pane. When you are doing a release to the `Releases` repo, maven promotes those
+artifacts you've placed in the staging repo to the `Releases` repo. It takes around 10 minutes for you to be able to pull in said
+artifact(s) in a project and up to 2 hrs for it to be searchable on [http://mvnrepository.com](http://mvnrepository.com)
+
+### `sbt-travisci` and multiple Scala major-minor artifacts
+
+In a `.travis.yml` file in your project we can declare various Scala version to build/release our project
+against. By default when you do say a `sbt compile` the last version in the list is chosen:
+
+```yaml
+language: scala
+
+scala:
+ - 2.11.12
+ - 2.12.4
+
+jdk:
+ - oraclejdk8
+```
 
 
 ### Out-of-project config
@@ -143,11 +168,25 @@ to the staging repo. In your project dir, enter an sbt shell
 ```
 > set pgpReadOnly := false
 > pgp-cmd gen-key
+Please enter the name associated with the key: FirstName LastName
+Please enter the email associated with the key: yourEmail
+Please enter the passphrase for the key: ********
+Please re-enter the passphrase for the key: ********
+[info] Creating a new PGP key, this could take a long time.
+[info] Public key := ~/.sbt/gpg/pubring.asc
+[info] Secret key := ~/.sbt/gpg/secring.asc
+[info] Please do not share your secret key.   Your public key is free to share.
+```
+
+You'll need to upload this created key to a key server:
+
+```
+> pgp-cmd send-key yourEmail hkp://pool.sks-keyservers.net
 ```
 
 #### Add sonatype credentials
 
-Create a file ~/.sbt/<your-project-sbt-major-minor-version>/sonatype.sbt with the following:
+Create a file `~/.sbt/<your-project-sbt-major-minor-version>/sonatype.sbt` with the following:
 
 ```scala
 credentials += Credentials(
@@ -157,4 +196,24 @@ credentials += Credentials(
   "<sonatype-password>"
 )
 ```
+
+### And now you're ready to release
+
+In your project sbt prompt:
+
+```
+> +publishSigned
+```
+
+This will publish `foo` and `core` artifacts to the staging repo. The `+` indicates that you'd
+like to package and deploy your module(s) against all of the different major-minor Scala versions
+declared in your `.travis.yml` file
+
+To promote these artifacts to the `Releases` repo:
+
+```
+> sonatypeReleaseAll
+```
+
+And you're done!
 
