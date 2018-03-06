@@ -1,8 +1,12 @@
 # Alex Milkov
 
-I'm currently a developer at The Weather Company and am getting my masters from my soul crushing alma-mater, Georgia Tech. This is a series of rants
-both programming and non-programming related
+I like functional programming and am currently a Scala dev at The Weather Company.
 
-* [Cabal and Stack: The Mish Mash that is the current state of Haskell build tools](cabal-stack.md)
-* [Personal Arch Install Guide-Mac ads](arch-mac.md)
+<!--* [Cabal and Stack: The Mish Mash that is the current state of Haskell build tools](cabal-stack.md)-->
+* [Deploy sbt projects to Sonatype (Maven Central)](sonatype.md)
+
+Unfinished:
+
+* [Personal Arch Install Guide-Mac](arch-mac.md)
+
 
