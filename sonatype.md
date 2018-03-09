@@ -215,5 +215,19 @@ To promote these artifacts to the `Releases` repo:
 > sonatypeReleaseAll
 ```
 
+> TIP:
+> If `+publishSigned` fails for some reason it is best to drop, not close, the staging repo opened as a result
+> via `sonatypeDrop` (if you have mutliple open this operation will fail withe something like:
+```
+[error] Multiple repositories are found:
+[error] [yourorg-XXXX] status:open, profile:yourorg(somehash)
+[error] [yourorg-XXXY] status:open, profile:yourorg(somehash)
+[error] Specify one of the repository ids in the command line
+```
+> so you'll need to specify which one you want to drop via `sonatypeDrop XXXX` (the repo id from above))
+> if you only close a staging repo, push a new one up and attempt to promote, Nexus will oddly try to
+> promote the earliest repo found, i.e. the closed one
+
+
 And you're done!
 
