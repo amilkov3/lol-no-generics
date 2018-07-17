@@ -3,3 +3,16 @@ minimal_mistakes_skin: "dark"
 title: "lol no generics"
 name: "Alex Milkov"
 description: "I'm currently a Scala dev at The Weather Company"
+
+defaults:
+  # _posts:
+  -scope:
+    path: ""
+    type: posts
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    comments: true
+    share: true
+    related: true
