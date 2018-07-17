@@ -9,6 +9,20 @@ paginate_path: /page:num/
 include:
   - _pages
 
+twitter:
+  username: &twitter "amilkov3"
+social:
+  name: "Alex Milkov"
+
+author:
+  name: *name
+  avatar: "/assets/images/me.png"
+  bio: "I like to `Stream[F[_], P]` into my brain. Currently a Scala dev at The Weather Company"
+  location: "Everywhere, Earth"
+  github: "amilkov3"
+  instagram: "amilkov3"
+  twitter: *twitter
+
 defaults:
   # _posts:
   -scope:
