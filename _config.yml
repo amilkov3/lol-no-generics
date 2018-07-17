@@ -6,6 +6,9 @@ description: "I'm currently a Scala dev at The Weather Company"
 paginate: 5
 paginate_path: /page:num/
 
+include:
+  - _pages
+
 defaults:
   # _posts:
   -scope:
@@ -18,3 +21,12 @@ defaults:
     comments: true
     share: true
     related: true
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
