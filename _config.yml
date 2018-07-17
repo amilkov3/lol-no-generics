@@ -3,6 +3,8 @@ minimal_mistakes_skin: "dark"
 title: "lol no generics"
 name: "Alex Milkov"
 description: "I'm currently a Scala dev at The Weather Company"
+paginate: 5
+paginate_path: /page:num/
 
 defaults:
   # _posts:
