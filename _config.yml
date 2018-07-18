@@ -14,6 +14,14 @@ twitter:
 social:
   name: "Alex Milkov"
 
+comments:
+  provider: "staticman_v2"
+  disqus:
+    shortname            :
+
+staticman:
+  branch: gh-pages
+
 author:
   name: *name
   avatar: "/assets/images/me.png"
