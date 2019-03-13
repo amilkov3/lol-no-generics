@@ -30,6 +30,10 @@ author:
   github: "amilkov3"
   instagram: "amilkov3"
   twitter: *twitter
+  links:
+    - label: "Resume"
+      icon: "fas fa-fw fa-toilet-paper"
+      url: "/assets/resume.pdf"
 
 defaults:
   # _posts:
@@ -43,6 +47,7 @@ defaults:
     comments: true
     share: true
     related: true
+
 
 defaults:
   # _pages
