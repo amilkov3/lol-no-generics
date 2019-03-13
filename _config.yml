@@ -25,7 +25,7 @@ staticman:
 author:
   name: *name
   avatar: "/assets/images/me.png"
-  bio: "I like to `Stream[F[_], P]` into my brain. Currently a Scala dev at The Weather Company"
+  bio: "<code>Stream[F[_], P]</code> into my brain. Scala dev @ The Weather Company (IBM)"
   location: "Everywhere, Earth"
   github: "amilkov3"
   instagram: "amilkov3"
