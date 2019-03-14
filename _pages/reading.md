@@ -18,6 +18,15 @@ your life. PDFs preferred but where lacking you'll get an ePub. You can convert 
 
 * [![link not found](/assets/images/shpp.jpg)](http://booksdl.org/get.php?md5=E54E2759B047FB6F9121F7FB81A5E659){:target="_blank"}
 
+* [![link not found](/assets/images/aswc.jpg)](/assets/advanced-scala.pdf){:target="_blank"}
+
+* [Herding Cats](http://eed3si9n.com/herding-cats/)
+
+* [Learning Scalaz](http://eed3si9n.com/learning-scalaz/)
+
+* [![link not found](/assets/images/fpfmws.png)](https://leanpub.com/fpmortals){:target="_blank"}
+
+
 ### Haskell
 
 * [![link not found](/assets/images/lyahfgg.jpg)](http://booksdl.org/get.php?md5=C95215EBDA5B815C1ECB505AE42D0630){:target="_blank"}
@@ -48,7 +57,7 @@ your life. PDFs preferred but where lacking you'll get an ePub. You can convert 
 
 * [![link not found](/assets/images/tlbtbtm.jpg)](http://booksdl.org/get.php?md5=1D39A6F7B9ABA604357A0CC88D7FE443){:target="_blank"}
 
-* [![link not found](/assets/images/vmamtvoc.jpg)](http://booksdl.org/get.php?md5=6F1DA5A5AE0C9E92D45208B294118C56){:target="_blank"}  
+* [![link not found](/assets/images/vmamtvoc.jpg)](http://booksdl.org/get.php?md5=6F1DA5A5AE0C9E92D45208B294118C56){:target="_blank"}
 And the [workbook](http://booksdl.org/get.php?md5=6F1DA5A5AE0C9E92D45208B294118C56) that comes with it
 
 * [![link not found](/assets/images/teb.jpg)](http://booksdl.org/get.php?md5=4ACCD25027DA3BC5F5F96F69BE81AABC){:target="_blank"}
