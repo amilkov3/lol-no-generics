@@ -6,6 +6,9 @@ description: "I'm currently a Scala dev at The Weather Company"
 paginate: 5
 paginate_path: /page:num/
 
+jekyll:
+  environment: 'production'
+
 include:
   - _pages
 
@@ -15,12 +18,9 @@ social:
   name: "Alex Milkov"
 
 comments:
-  provider: "staticman_v2"
+  provider: "disqus"
   disqus:
-    shortname            :
-
-staticman:
-  branch: gh-pages
+    shortname: "milkovml"
 
 author:
   name: *name
@@ -37,17 +37,18 @@ author:
 
 defaults:
   # _posts:
-  -scope:
-    path: ""
-    type: posts
-  values:
-    layout: single
-    author_profile: true
-    read_time: true
-    comments: true
-    share: true
-    related: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
+repository: amilkov3/lol-no-generics
 
 defaults:
   # _pages
@@ -57,6 +58,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      comments: true
 
 plugins:
   - jekyll-include-cache
