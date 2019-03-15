@@ -1,4 +1,4 @@
 main:
-  - title: "Reading List"
-    url: "/reading"
+  - title: "Bookshelf"
+    url: "/bookshelf"
 

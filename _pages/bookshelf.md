@@ -1,8 +1,8 @@
 ---
-title: "Reading List"
+title: "Bookshelf"
 layout: single
 author_profile: true
-permalink: /reading
+permalink: /bookshelf
 comments: true
 ---
 
@@ -42,6 +42,9 @@ If you have recs please leave a comment below
 
 * [![link not found](/assets/images/hp.jpg)](http://booksdl.org/get.php?md5=0073d1100c226de172fca6fa9b2809d9){:target="_blank"}
 
+### Python
+
+* [![link not found](/assets/images/fpp.jpg)](http://booksdl.org/get.php?md5=e1ebf71c169bd819f80df0a1e3f8ec91){:target="_blank"}
 
 ### Category Theory
 
