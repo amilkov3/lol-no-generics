@@ -12,6 +12,9 @@ your life. PDFs preferred but where lacking you'll get an ePub. You can convert 
 [calibre](https://calibre-ebook.com/download){:target="_blank"}
 
 
+If you have recs please leave a comment below
+
+
 ### Scala
 
 * [![link not found](/assets/images/fpis.jpg)](http://booksdl.org/get.php?md5=cef507e9aa5f3d0af70faa017150a772){:target="_blank"}
@@ -31,6 +34,18 @@ your life. PDFs preferred but where lacking you'll get an ePub. You can convert 
 
 * [![link not found](/assets/images/lyahfgg.jpg)](http://booksdl.org/get.php?md5=C95215EBDA5B815C1ECB505AE42D0630){:target="_blank"}
 
+* [![link not found](/assets/images/tfwh.jpg)](http://booksdl.org/get.php?md5=b729813892b40886d6ab2db229b9b76e){:target="_blank"}
+
+* [![link not found](/assets/images/hhpp.jpg)](http://booksdl.org/get.php?md5=cb6443ca2e20844e7ff3cc217a2bd1b4){:target="_blank"}
+
+* [![link not found](/assets/images/pacpih.jpg)](http://booksdl.org/get.php?md5=fcad24f53370aeea233f80ae9aa489e8){:target="_blank"}
+
+* [![link not found](/assets/images/hp.jpg)](http://booksdl.org/get.php?md5=0073d1100c226de172fca6fa9b2809d9){:target="_blank"}
+
+
+### Category Theory
+
+* [![link not found](/assets/images/ctfp.jpg)](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.2.1/category-theory-for-programmers.pdf){:target="_blank"}
 
 ### Machine Learning
 
