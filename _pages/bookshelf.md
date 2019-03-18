@@ -46,6 +46,18 @@ If you have recs please leave a comment below
 
 * [![link not found](/assets/images/fpp.jpg)](http://booksdl.org/get.php?md5=e1ebf71c169bd819f80df0a1e3f8ec91){:target="_blank"}
 
+### Algorithms
+
+* [![link not found](/assets/images/a.jpg)](http://booksdl.org/get.php?md5=B630255385C04C1D14B2C055C3C0B7D6){:target="_blank"}
+
+* [![link not found](/assets/images/ita.jpg)](http://booksdl.org/get.php?md5=236A1AA3905BD94D9163EB87C84A93DC){:target="_blank"}
+
+
+### Programming/Computational Models
+
+* [![link not found](/assets/images/ctmcp.jpg)](http://booksdl.org/get.php?md5=010E3DFADD48D815CE185F9FFB8CDE25){:target="_blank"}
+
+
 ### Category Theory
 
 * [![link not found](/assets/images/ctfp.jpg)](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.2.1/category-theory-for-programmers.pdf){:target="_blank"}
