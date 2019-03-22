@@ -48,11 +48,21 @@ If you have recs please leave a comment below
 
 * [![link not found](/assets/images/fpp.jpg)](http://booksdl.org/get.php?md5=e1ebf71c169bd819f80df0a1e3f8ec91){:target="_blank"}
 
+
 ### [Algorithms](#algorithms)
 
 * [![link not found](/assets/images/a.jpg)](http://booksdl.org/get.php?md5=B630255385C04C1D14B2C055C3C0B7D6){:target="_blank"}
 
 * [![link not found](/assets/images/ita.jpg)](http://booksdl.org/get.php?md5=236A1AA3905BD94D9163EB87C84A93DC){:target="_blank"}
+
+* [![link not found](/assets/images/pfds.jpg)](http://booksdl.org/get.php?md5=b9cfbfbddf11107f53d1ee7448006453){:target="_blank"}
+
+
+### [Clojure](#clojure)
+
+* [![link not found](/assets/images/cftbat.png)](http://booksdl.org/get.php?md5=1f7f9d1b21682b1495c3599fdaad0b31){:target="_blank"}
+
+* [![link not found](/assets/images/tjoc.jpg)](http://booksdl.org/get.php?md5=6f9aa44649fc59ab14e876b7cfb0dfd5){:target="_blank"}
 
 
 ### [Programming/Computational Models](#programmingcomputational-models)
