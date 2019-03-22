@@ -29,6 +29,8 @@ If you have recs please leave a comment below
 
 * [![link not found](/assets/images/fpfmws.png)](https://leanpub.com/fpmortals){:target="_blank"}
 
+* [![link not found](/assets/images/lcpis.jpg)](http://booksdl.org/get.php?md5=beccc2c94b4a21c3778e8f8d45365e5f){:target="_blank"}
+
 
 ### [Haskell](#haskell)
 
