@@ -48,6 +48,10 @@ If you have recs please leave a comment below
 
 * [![link not found](/assets/images/fpp.jpg)](http://booksdl.org/get.php?md5=e1ebf71c169bd819f80df0a1e3f8ec91){:target="_blank"}
 
+* [![link not found](/assets/images/pt.jpg)](http://booksdl.org/get.php?md5=5320531166e422d6ea70e1c5ad9535c2){:target="_blank"}
+
+* [![link not found](/assets/images/fp.jpg)](http://booksdl.org/get.php?md5=2a4f3e9325b0e17dfc4a82f9b912285f){:target="_blank"}
+
 
 ### [Algorithms](#algorithms)
 
@@ -68,6 +72,8 @@ If you have recs please leave a comment below
 ### [Programming/Computational Models](#programmingcomputational-models)
 
 * [![link not found](/assets/images/ctmcp.jpg)](http://booksdl.org/get.php?md5=010E3DFADD48D815CE185F9FFB8CDE25){:target="_blank"}
+
+* [![link not found](/assets/images/plp.jpg)](http://booksdl.org/get.php?md5=9006e3c672726689767509b65c889202){:target="_blank"}
 
 
 ### [Category Theory](#category-theory)
