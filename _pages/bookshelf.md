@@ -53,6 +53,15 @@ If you have recs please leave a comment below
 
 * [![link not found](/assets/images/fp.jpg)](http://booksdl.org/get.php?md5=2a4f3e9325b0e17dfc4a82f9b912285f)
 
+### [Clojure](#clojure)
+
+* [![link not found](/assets/images/cftbat.png)](http://booksdl.org/get.php?md5=1f7f9d1b21682b1495c3599fdaad0b31)
+
+* [![link not found](/assets/images/tjoc.jpg)](http://booksdl.org/get.php?md5=6f9aa44649fc59ab14e876b7cfb0dfd5)
+
+### [Rust](#rust)
+
+* [![link not found](/assets/images/pr.jpg)](http://booksdl.org/get.php?md5=1b5563e9b4c7e22884a900ca00ae0d7b)
 
 ### [Algorithms](#algorithms)
 
@@ -61,14 +70,6 @@ If you have recs please leave a comment below
 * [![link not found](/assets/images/ita.jpg)](http://booksdl.org/get.php?md5=236A1AA3905BD94D9163EB87C84A93DC)
 
 * [![link not found](/assets/images/pfds.jpg)](http://booksdl.org/get.php?md5=b9cfbfbddf11107f53d1ee7448006453)
-
-
-### [Clojure](#clojure)
-
-* [![link not found](/assets/images/cftbat.png)](http://booksdl.org/get.php?md5=1f7f9d1b21682b1495c3599fdaad0b31)
-
-* [![link not found](/assets/images/tjoc.jpg)](http://booksdl.org/get.php?md5=6f9aa44649fc59ab14e876b7cfb0dfd5)
-
 
 ### [Programming/Computational Models](#programmingcomputational-models)
 
