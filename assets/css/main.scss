@@ -15,3 +15,22 @@
 .archive {
   padding-right: 70px;
 }
+
+html {
+  font-size: 14px;
+  @include breakpoint($medium) {
+      font-size: 14px; // originally 18px
+  }
+
+  @include breakpoint($large) {
+      font-size: 16px; // originally 20px
+  }
+
+  @include breakpoint($x-large) {
+      font-size: 18px; // originally 22px
+  }
+}
+
+.sidebar  {
+  font-size: 1.2em !important;
+}
