@@ -17,6 +17,8 @@ If you have recs please leave a comment below
 
 ### [Scala](#scala)
 
+* [![link not found](/assets/images/es.png)](/assets/essential-scala.pdf)
+
 * [![link not found](/assets/images/fpis.jpg)](http://booksdl.org/get.php?md5=cef507e9aa5f3d0af70faa017150a772)
 
 * [![link not found](/assets/images/shpp.jpg)](http://booksdl.org/get.php?md5=E54E2759B047FB6F9121F7FB81A5E659)
