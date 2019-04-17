@@ -24,7 +24,7 @@ comments:
 
 author:
   name: *name
-  avatar: "/assets/images/me.png"
+  avatar: "/assets/images/me.jpg"
   bio: "<code>Stream[F[_], P]</code> into my brain. Scala dev @ The Weather Company (IBM)"
   location: "Everywhere, Earth"
   github: "amilkov3"
