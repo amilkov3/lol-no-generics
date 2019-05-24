@@ -33,7 +33,7 @@ author:
   links:
     - label: "Resume"
       icon: "fas fa-fw fa-toilet-paper"
-      url: "/assets/resume.pdf"
+      url: "/resume/resume.html"
 
 defaults:
   # _posts:
