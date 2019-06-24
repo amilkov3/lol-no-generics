@@ -68,6 +68,11 @@ If you have recs please leave a comment below
 * [![link not found](/assets/images/pr.jpg)](http://booksdl.org/get.php?md5=1b5563e9b4c7e22884a900ca00ae0d7b)
 
 
+### [Golang](#golang)
+
+* [![link not found](/assets/images/tgpl.jpg)](http://library1.org/_ads/BEF9F542ED5ADDB39ABC1D667C94C42F)
+
+
 ### [Algorithms](#algorithms)
 
 * [![link not found](/assets/images/a.jpg)](http://booksdl.org/get.php?md5=B630255385C04C1D14B2C055C3C0B7D6)

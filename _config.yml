@@ -26,6 +26,7 @@ author:
   name: *name
   avatar: "/assets/images/me.jpg"
   bio: "<code>Stream[F[_], P]</code> into my brain. Scala dev @ The Weather Company (IBM)"
+  # <i>Previous</i>:  <br/>  <i>Now</i>: Writing Go @ Square so I don't even have generics now man, much less higher kinded types (<code>F[_]</code>)
   location: "Everywhere, Earth"
   github: "amilkov3"
   instagram: "amilkov3"
