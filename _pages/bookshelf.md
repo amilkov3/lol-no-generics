@@ -72,6 +72,8 @@ If you have recs please leave a comment below
 
 * [![link not found](/assets/images/tgpl.jpg)](http://library1.org/_ads/BEF9F542ED5ADDB39ABC1D667C94C42F)
 
+* [![link not found](/assets/images/cic.jpg)](http://booksdl.org/get.php?md5=84fb7288d058eeaa81f5d802756bb29a&key=JA0SROP69N2K0U0T)
+
 
 ### [Algorithms](#algorithms)
 
