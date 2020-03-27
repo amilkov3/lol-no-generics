@@ -40,11 +40,14 @@ If you have recs please leave a comment below
 * [![link not found](/assets/images/pfds.jpg)](http://booksdl.org/get.php?md5=b9cfbfbddf11107f53d1ee7448006453)
 
 
-### [Programming Language Theory/Misc](#programmingcomputational-models)
+### [Computational Models](#computational-models)
 
 * [![link not found](/assets/images/ctmcp.jpg)](http://booksdl.org/get.php?md5=010E3DFADD48D815CE185F9FFB8CDE25)
 
 * [![link not found](/assets/images/plp.jpg)](http://booksdl.org/get.php?md5=9006e3c672726689767509b65c889202)
+
+
+### [Misc](#misc)
 
 * [![link not found](/assets/images/cc.jpg)](http://93.174.95.29/main/2414000/6cbdc7512409c270912024e9f7a1749e/%28Robert%20C.%20Martin%20series%202009_%201%29%20Martin%2C%20Robert%20C%20-%20Clean%20Code_%20A%20Handbook%20of%20Agile%20Software%20Craftmanship-Prentice%20Hall%20%282010%29.pdf)
 
@@ -123,7 +126,7 @@ If you have recs please leave a comment below
 * [![link not found](/assets/images/dlwp.jpg)](http://booksdl.org/get.php?md5=584B39E75A5B9E072467AFD6A684D0FB)
 
 
-### [Devops](#devopsarchitecture)
+### [Devops](#devops)
 
 * [![link not found](/assets/images/kubernetes-in-action.jpg)](http://booksdl.org/get.php?md5=DAEE4F2B5889844819499C5EBFEA3147)
 
