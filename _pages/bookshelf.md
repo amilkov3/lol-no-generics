@@ -23,6 +23,8 @@ If you have recs please leave a comment below
 
 * [![link not found](/assets/images/nfmm.jpg)](http://booksdl.org/get.php?md5=4e37626add641c9f83708d726ba2a13a)
 
+* [![link not found](/assets/images/di.jpg)](http://93.174.95.29/main/2493000/902ba0835e8e3e0262c236e3198e1ef5/Alex%20Petrov%20-%20Database%20Internals_%20A%20Deep%20Dive%20Into%20How%20Distributed%20Data%20Systems%20Work-O%27Reilly%20Media%20%282019%29.pdf)
+
 
 ### [Papers](#papers)
 
