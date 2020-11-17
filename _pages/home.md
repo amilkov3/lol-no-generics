@@ -5,10 +5,13 @@ permalink: /
 ---
 2020
 
-A lot has changed since last year. I realized I sort of pidgeon-holed myself into programming language theory the past (first) 3 years, which is good because I have a good idea when and why a programming language is appropriate and when and why not. But...at the expense of actual systems and engineering knowledge. So for now I don't care much what I'm programming in. I just care about problem solving. Though if anything I'm now even more curious about _all_ of them
+Moving away from programming language theory stuff to focus on distribute systems and engineering in general
 
-* Super secret event planning platform for a start-up in Uber's [Fusion](https://fusionjs.com/) fullstack JS (using Typescript) framework
-* Trying to introduce Rust to Square which entails porting their entire internal and a large chunk of their external ecosystem. What can I say...I miss functional programming and language features in general. Go makes programming way too straighforward...and boring (which is a good thing in my estimations at this point)
+* Introducing Rust at Square which entails porting the internal ecosystem necessary to run services here(I obviously miss functional programming and Go is about as far away as you get from scratching the itch). We are getting close to baseline support, have built a first (notifications) service during a hackweek that's running in our staging environment, and it will be really interesting to see what the reception will be like when we choose Rust to build something more critical and visible. Potential projects so far:
+  * Envoy side cars: we want to push concerns like auth, which is currently implemented in every server supported language here (Go, Java, Kotlin, Python, Ruby) to our Envoy sidecars so we don't have to maintain code across all the aformentioned languages. Many (most) of these concerns have performance/throughput requirements so Rust seems like a good choice here.
+* Doing a datastore rearchitecture of the service I work on, which manages merchant catalogs. We are currently on an EAV model in sharded MySQL which isn't very nice. Issues include:
+  * It forces us to push up constraints to the application level since the model isn't relational so we can't take advantage of DB level constraints. This
+* GraphQL for querying merchant catalogs: worked on a hackweek service to expose querying the service metnioned above via GraphQL's playground
 
 2019
 

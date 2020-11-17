@@ -25,8 +25,8 @@ comments:
 author:
   name: *name
   avatar: "/assets/images/me.jpg"
-  bio: "<i>Previous</i>: <code>Stream[F[_], P]</code> into my brain. Scala dev @ The Weather Company (IBM) <br/> <i>Now</i>: Jumped off the ivory tower: Go @ Square...but I'm sneaking in Rust"
-  location: "Everywhere, Earth"
+  bio: "<i>Previous</i>: Scala/Clojure/MongoDB @ The Weather Company (IBM) <br/> <i>Now</i>: Go/Rust/gRPC/MySQL @ Square"
+  location: "Atlanta, GA"
   github: "amilkov3"
   instagram: "amilkov3"
   twitter: *twitter
