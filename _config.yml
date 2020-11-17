@@ -12,27 +12,28 @@ jekyll:
 include:
   - _pages
 
-twitter:
-  username: &twitter "amilkov3"
-social:
-  name: "Alex Milkov"
-
 comments:
   provider: "disqus"
   disqus:
     shortname: "milkovml"
 
 author:
-  name: *name
+  name: "Alex Milkov"
   avatar: "/assets/images/me.jpg"
   bio: "<i>Previous</i>: Scala/Clojure/MongoDB @ The Weather Company (IBM) <br/> <i>Now</i>: Go/Rust/gRPC/MySQL @ Square"
   location: "Atlanta, GA"
-  github: "amilkov3"
-  instagram: "amilkov3"
-  twitter: *twitter
   links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/amilkov3"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/amilkov3"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/amilkov3"
     - label: "Resume"
-      icon: "fas fa-fw fa-toilet-paper"
+      icon: "fab fa-fw fa-toilet-paper"
       url: "/resume/resume.html"
 
 defaults:
