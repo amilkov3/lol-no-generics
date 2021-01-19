@@ -20,7 +20,7 @@ comments:
 author:
   name: "Alex Milkov"
   avatar: "/assets/images/me.jpg"
-  bio: "<i>Previous</i>: Scala/Clojure/MongoDB @ The Weather Company (IBM) <br/> <i>Now</i>: Go/Rust/gRPC/MySQL @ Square"
+  bio: "<i>Now</i>: Go/Rust/gRPC/MySQL/Elasticsearch @ Square<br/><i>Previous</i>: Scala/Clojure/MongoDB @ The Weather Company (IBM)"
   location: "Atlanta, GA"
   links:
     - label: "Twitter"

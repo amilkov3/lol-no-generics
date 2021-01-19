@@ -10,8 +10,11 @@ Moving away from programming language theory stuff to focus on distribute system
 * Introducing Rust at Square which entails porting the internal ecosystem necessary to run services here(I obviously miss functional programming and Go is about as far away as you get from scratching the itch). We are getting close to baseline support, have built a first (notifications) service during a hackweek that's running in our staging environment, and it will be really interesting to see what the reception will be like when we choose Rust to build something more critical and visible. Potential projects so far:
   * Envoy side cars: we want to push concerns like auth, which is currently implemented in every server supported language here (Go, Java, Kotlin, Python, Ruby) to our Envoy sidecars so we don't have to maintain code across all the aformentioned languages. Many (most) of these concerns have performance/throughput requirements so Rust seems like a good choice here.
 * Doing a datastore rearchitecture of the service I work on, which manages merchant catalogs. We are currently on an EAV model in sharded MySQL which isn't very nice. Issues include:
-  * It forces us to push up constraints to the application level since the model isn't relational so we can't take advantage of DB level constraints. This
-* GraphQL for querying merchant catalogs: worked on a hackweek service to expose querying the service metnioned above via GraphQL's playground
+  * manual sharding means manual re-sharding as data grows in clumps
+  * forced to push up constraints to the application level since the model isn't relational so we can't take advantage of DB cascades
+  * our data is fundamentally graphical i.e. we have objects that relate to other objects via a key and queries frequently involve traversing these relationships. modeling this in a relational store isn't the most natural medium
+  * EAV bypasses the pros of a relational model. And of course storing data in a model that differs from the intended model of the underlying store has all sorts of undesirable side effects like query performance hits and just general indirection
+* GraphQL for querying merchant catalogs: worked on a hackweek service to expose querying the service mentioned above via GraphQL's playground, the long run goal being to expose a public read/write GraphQL API to our developers
 
 2019
 
