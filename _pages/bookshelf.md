@@ -7,12 +7,12 @@ comments: true
 ---
 
 
-Wanna see a magic trick? Click on a book and you'll download it. [Library Genesis](https://en.wikipedia.org/wiki/Library_Genesis){:target="_blank"} will change
-your life. PDFs preferred but where lacking you'll get an ePub. You can convert it to a PDF via
+Click on a book cover and you'll download it. [Library Genesis](https://en.wikipedia.org/wiki/Library_Genesis){:target="_blank"} will change
+your life. PDFs preferred with ePub fallback. You can convert between file formats with
 [calibre](https://calibre-ebook.com/download){:target="_blank"}
 
 
-If you have recs please leave a comment below
+If you have recs leave a comment below
 
 
 ### [Systems](#systems)
@@ -42,17 +42,18 @@ If you have recs please leave a comment below
 * [![link not found](/assets/images/pfds.jpg)](http://booksdl.org/get.php?md5=b9cfbfbddf11107f53d1ee7448006453)
 
 
-### [Computational Models](#computational-models)
+### [Paradigms](#computational-models)
 
 * [![link not found](/assets/images/ctmcp.jpg)](http://booksdl.org/get.php?md5=010E3DFADD48D815CE185F9FFB8CDE25)
 
 * [![link not found](/assets/images/plp.jpg)](http://booksdl.org/get.php?md5=9006e3c672726689767509b65c889202)
 
 
-### [Misc](#misc)
+### [Programming](#programming)
 
-* [![link not found](/assets/images/cc.jpg)](http://93.174.95.29/main/2414000/6cbdc7512409c270912024e9f7a1749e/%28Robert%20C.%20Martin%20series%202009_%201%29%20Martin%2C%20Robert%20C%20-%20Clean%20Code_%20A%20Handbook%20of%20Agile%20Software%20Craftmanship-Prentice%20Hall%20%282010%29.pdf)
+* (I don't like Clean Code) [![link not found](/assets/images/psd.jpg)](https://github.com/rocky-191/Awesome-CS-Books/blob/master/SoftwareEngineering/Architecture/2018-John%20Ousterhout-A%20Philosophy%20of%20Software%20Design.pdf)
 
+## Everything from here down is not foundational and rather implementation details or other random book that I found decent at the time of reading
 
 ### [Haskell](#haskell)
 
