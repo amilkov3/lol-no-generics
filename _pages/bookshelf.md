@@ -51,7 +51,7 @@ If you have recs leave a comment below
 
 ### [Programming](#programming)
 
-* (I don't like Clean Code) [![link not found](/assets/images/psd.jpg)](https://github.com/rocky-191/Awesome-CS-Books/blob/master/SoftwareEngineering/Architecture/2018-John%20Ousterhout-A%20Philosophy%20of%20Software%20Design.pdf)
+* (I don't like Clean Code) [![link not found](/assets/images/psd.jpg)](/assets/psd.pdf)
 
 ## Everything from here down is not foundational and rather implementation details or other random book that I found decent at the time of reading
 
