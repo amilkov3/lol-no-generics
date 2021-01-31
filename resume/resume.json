@@ -1,0 +1,75 @@
+{
+  "basics": {
+    "name": "Alex Milkov",
+    "label": "Software Engineer",
+    "email": "amilkov3@gmail.com",
+    "phone": "(404) 317-1005",
+    "website": "https://milkov.tech",
+    "summary": "Past experience resides in distributed systems and programming language theory but also interested in AI/ML, security, and crypto to name a few",
+    "location": {
+      "city": "Atlanta",
+      "countryCode": "US",
+      "region": "Georgia"
+    }
+  },
+  "work": [{
+    "company": "Square",
+    "position": "Software Engineer",
+    "website": "https://squareup.com",
+    "startDate": "Jul 2019",
+    "highlights": [
+      "Catalog Items Server team - Responsible for developing and maintaining the items service (Go) which manages merchant catalogs. Internal clients are Square POS and Dashboard served via gRPC while 3rd parties like UberEats and Postmates are served via Connect V2, a REST API. Datastore is manually sharded (on merchant) MySQL. Search is back by Elasticsearch",
+      "Introduced Rust to Square by porting internal libraries necessary to run a service in Square's environments. A few of these components: RPC + HTTP server framework, clients (RPC, HTTP, Slack, Pagerduty, etc), protobuf compiler, admin console, MySQL + Redis client, configs/env vars/other scaffolding, logging, metrics, Envoy, builds, feeds, jobs",
+      "Lots of design docs, PR reviews, interviews, documentation"
+    ]
+  }],
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "Jan 2015",
+      "endDate": "Dec 2018"
+    },
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "Industrial Engineering",
+      "studyType": "B.S.",
+      "startDate": "Aug 2011",
+      "endDate": "Dec 2014"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Go",
+        "Rust",
+        "Scala",
+        "Haskell",
+        "Clojure",
+        "Java",
+        "JavaScript (React)"
+      ]
+    },
+    {
+      "name": "Datastores",
+      "keywords": [
+        "MySQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "name": "Devops",
+      "keywords": [
+        "Kubernetes",
+        "Docker"
+      ]
+    }
+  ],
+  "languages": [{
+    "language": "Bulgarian",
+    "fluency": "Native speaker"
+  }]
+}
