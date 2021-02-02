@@ -2,12 +2,21 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 title: "lol no generics"
 name: "Alex Milkov"
-description: "I'm currently a Scala dev at The Weather Company"
+description: ""
 paginate: 5
 paginate_path: /page:num/
 
+#gems:
+#- jekyll-font-awesome-sass
+
 jekyll:
   environment: 'production'
+
+font-awesome:
+  assets: true
+
+exclude:
+  - resume/node_modules
 
 include:
   - _pages
@@ -24,13 +33,13 @@ author:
   location: "Atlanta, GA"
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-twitter-square"
       url: "https://twitter.com/amilkov3"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/amilkov3"
     - label: "Resume"
-      icon: "fab fa-fw fa-toilet-paper"
+      icon: "fas fa-toilet-paper"
       url: "/resume/resume.html"
 
 defaults:
@@ -61,3 +70,5 @@ defaults:
 
 plugins:
   - jekyll-include-cache
+  - jekyll-font-awesome-sass
+

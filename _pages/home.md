@@ -20,10 +20,3 @@ Moving away from programming language theory to focus on distributed systems and
 
 * [Functional Data Structures & Algorithms](https://amilkov.gitbook.io/fp/) - This is a GitBook about implementing common algorithms and data structures, the kind you'd encounter in a mostly undergraduate/some graduate course on the subject and, more pertinently, a technical interviews...in the functional (+ statically typed) paradigm however. So if you want to confuse the shit out of your interviewer, check it out
 * <img src="/assets/images/aws4cats.png" width="50" height="50" alt="Computer Hope"> [aws4cats](https://github.com/amilkov3/aws4cats) this is a `cats-effect`, `http4s-core`, `fs2` wrapper around the new 2.0 AWS Java SDK. So far I'm supporting SQS, S3, and DynamoDB. With longer term plans for SNS, RDB, etc **EDIT** project is still up but I'm no longer working on it
-
-# Articles
-
-{% for post in site.posts %}
-  <p style="margin:50px 0 0 0;font-size:15px;"><i class="far fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%b %d %Y" }}</p>
-  {% include archive-single.html %}
-{% endfor %}

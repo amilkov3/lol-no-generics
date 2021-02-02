@@ -6,6 +6,8 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+//$fa-font-path: "fonts/font-awesome/";
+//@import "font-awesome";
 
 .author__avatar img {
   max-width: 180px;
