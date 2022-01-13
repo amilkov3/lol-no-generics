@@ -4,25 +4,48 @@
     "label": "Software Engineer",
     "email": "amilkov3@gmail.com",
     "phone": "(404) 317-1005",
-    "website": "https://milkov.tech",
-    "summary": "Past experience resides in distributed systems and programming language theory but also interested in finance, AI/ML, security, and crypto",
+    "summary": "Past experience resides in distributed systems and programming language theory. Seeking dev roles around finance, AI/ML, or crypto",
     "location": {
-      "city": "Atlanta",
-      "countryCode": "US",
-      "region": "Georgia"
+      "city": "East Coast",
+      "countryCode": "US"
     }
   },
   "work": [{
-    "company": "Square",
-    "position": "Software Engineer",
-    "website": "https://squareup.com",
+    "company": "Square (Block)",
+    "position": "Senior Software Engineer",
+    "website": "https://block.xyz",
     "startDate": "Jul 2019",
     "highlights": [
-      "Catalog Items Server team - Responsible for developing and maintaining the items service (Go) which manages merchant catalogs. Internal clients are Square POS and Dashboard served via gRPC while 3rd parties like UberEats and Postmates are served via Connect V2, a REST API. Datastore is manually sharded (on merchant) MySQL. Search is back by Elasticsearch",
-      "Introduced Rust to Square by porting internal libraries necessary to run a service in Square's environments. A few of these components: RPC + HTTP server framework, clients (RPC, HTTP, Slack, Pagerduty, etc), protobuf compiler, admin console, MySQL + Redis client, configs/env vars/other scaffolding, logging, metrics, Envoy, builds, feeds, jobs",
-      "Lots of design docs, PR reviews, interviews, documentation"
+      "Developing and maintaining service (Go) which manages merchant catalogs. Clients are Square POS and Dashboard (internal) and UberEats, Postmates, etc (external). Datastore is sharded MySQL. Search is backed by Elasticsearch. Rearchitecting next generation of this service which is a generic object store all teams can use, backed by TiDB",
+      "Developing and maintaining services (Go) which track inventory counts, costs, and report generation",
+      "Introduced Rust to Square by porting internal libraries necessary to run a service in Square's environments. (gRPC + HTTP server framework, clients, custom protobuf compiler, admin console, MySQL + Redis integration, logging, metrics, Envoy, builds, feeds, jobs, etc)",
+      "Lots of design docs, PR reviews, interviews, and documentation writing"
     ]
-  }],
+  },
+  {
+    "company": "Comcast",
+    "position": "Senior Software Engineer (Contract)",
+    "website": "https://weather.com",
+    "startDate": "Jun 2018",
+    "endDate": "Dec 2018",
+    "highlights": [
+      "Full stack work on isomorphic system - Scala.js + React bindings, Scala backend (heavy functional programming shop) - enabling operators to remotely manage the configuration of hundreds of thousands of newly rolled out networking devices"
+    ]
+  },
+  {
+    "company": "The Weather Company (IBM)",
+    "position": "Senior Software Engineer",
+    "website": "https://weather.com",
+    "startDate": "Sep 2016",
+    "endDate": "Jun 2019",
+    "highlights": [
+      "Migrated services to AWS's managed (EKS) Kubernetes (k8s) and carved out best practices and recommended tooling (Prometheus, Alertmanager, Grafana, Loki, nginx-ingress, etc) as part of org-wide migration to IBM Cloud",
+      "Responsible for developing and maintaining user profile system (Scala) that manages all user data such as subscriptions, locations, demographics, and device endpoints",
+      "Responsible for developing and maintaining alerting system (Scala), which fetches user subscriptions, populates content templates, and distributes them to devices",
+      "Lead initiatives to adopt libraries and develop tooling in the purely functional side of the Scala ecosystem. Mentored engineers in functional programming language theory"
+    ]
+  }
+  ],
   "education": [
     {
       "institution": "Georgia Institute of Technology",
@@ -45,11 +68,12 @@
       "keywords": [
         "Go",
         "Rust",
+        "Python",
         "Scala",
         "Haskell",
         "Clojure",
         "Java",
-        "JavaScript (React)"
+        "JavaScript/Typescript"
       ]
     },
     {
@@ -57,7 +81,8 @@
       "keywords": [
         "MySQL",
         "MongoDB",
-        "Elasticsearch"
+        "Elasticsearch",
+        "ArangoDB"
       ]
     },
     {
