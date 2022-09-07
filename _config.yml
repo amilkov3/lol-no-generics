@@ -1,6 +1,6 @@
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
-title: "lol no generics"
+title: "👋"
 name: "Alex Milkov"
 description: ""
 paginate: 5
@@ -29,7 +29,7 @@ comments:
 author:
   name: "Alex Milkov"
   avatar: "/assets/images/me.jpg"
-  bio: "<i>Now</i>: Go/Rust/gRPC/MySQL/Elasticsearch @ Square<br/><i>Previous</i>: Scala/Clojure/MongoDB @ The Weather Company (IBM)"
+  bio: "<i>Now</i>: Go/Rust/gRPC/MySQL/Elasticsearch @ <a href='https://block.xyz/'>Block (formerly Square)</a><br/><i>Previous</i>: Scala/Clojure/MongoDB @ The Weather Company (IBM)"
   location: "Atlanta, GA"
   links:
     - label: "Twitter"
