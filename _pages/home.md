@@ -4,7 +4,7 @@ layout: single
 permalink: /
 ---
 
-Hi, I'm a software engineer based out of Atlanta, GA but currently living in Bulgaria. I'm interested in freelance (full-time only if the company allows me to work from Bulgaria) backend development in the domains of finance, crypto, and ML, but willing to work in any domain. My experience resides in distributed systems, programming language theory (I've worked in every programming language paradigm), and finance (ML for trading, quantitative finance, valuation, etc)
+Hi, I'm a software engineer based out of Atlanta, GA but currently living in Bulgaria. I'm interested in freelance (full-time only if the company allows me to work from Bulgaria) backend development in the domains of finance, crypto, and ML, but willing to work in any domain. My experience resides in distributed systems (I've worked on a variety of complex backend architectures), programming language theory (I've worked in every programming language paradigm), and finance (ML for trading, quantitative finance, valuation, etc)
 
 <!---
 2019

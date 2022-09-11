@@ -4,20 +4,24 @@ layout: single
 author_profile: true
 permalink: /bookshelf
 comments: true
+toc: true
+toc_label: "Content"
+toc_icon: "heart"
+toc_sticky: true
 ---
 
 
 Click on a book cover and you'll download it. [Library Genesis](https://en.wikipedia.org/wiki/Library_Genesis){:target="_blank"} will change
-your life. PDFs preferred with ePub fallback. You can convert between file formats with
-[calibre](https://calibre-ebook.com/download){:target="_blank"}
-
+your life. PDFs preferred with ePub fallback.
 
 If you have recs leave a comment below
 
 
-### [Systems](#systems)
+### [Distributed Systems](#systems)
 
 * [![link not found](/assets/images/ds.jpg)](http://93.174.95.29/main/2212000/6f16b914b76912b21f363fcebeaba4d6/Maarten%20van%20Steen%2C%20%20Andrew%20S.%20Tanenbaum%20-%20Distributed%20Systems-CreateSpace%20IPP%20%282017%29.pdf)
+
+* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf) - Joe Armstrong's, the creator of Erlang, 2003 thesis that lays out a set of invariants that a fault tolerant distributed system should maintain along with an introduction to Erlang and how it meets said invariants
 
 * [![link not found](/assets/images/ddia.jpg)](http://booksdl.org/get.php?md5=BF7C3FECFE5DCFFCEB170B2AA6D34C31)
 
@@ -25,10 +29,12 @@ If you have recs leave a comment below
 
 * [![link not found](/assets/images/di.jpg)](http://93.174.95.29/main/2493000/902ba0835e8e3e0262c236e3198e1ef5/Alex%20Petrov%20-%20Database%20Internals_%20A%20Deep%20Dive%20Into%20How%20Distributed%20Data%20Systems%20Work-O%27Reilly%20Media%20%282019%29.pdf)
 
+### [Financial Machine Learning](#finml)
+* [![link not found](/assets/images/mlfam.jpeg)](http://62.182.86.140/main/2530000/2c52dc9e220faf7b0e2ea4a3dbb7ec84/%28Elements%20in%20Quantitative%20Finance%29%20Marcos%20M.%20L%C3%B3pez%20de%20Prado%20-%20Machine%20Learning%20for%20Asset%20Managers-Cambridge%20University%20Press%20%282020%29.pdf)
 
-### [Papers](#papers)
+* [![link not found](/assets/images/aifml.jpeg)](http://62.182.86.140/main/2192000/afe47798ffea327427f73ad5dba9a0eb/Marcos%20Lopez%20de%20Prado%20-%20Advances%20in%20Financial%20Machine%20Learning-Wiley%20%282018%29.pdf)
 
-* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf) - Joe Armstrong's, the creator of Erlang, 2003 thesis that lays out a set of invariants that a fault tolerant distributed system should maintain along with an introduction to Erlang and how it meets said invariants
+* [![link not found](/assets/images/mlfat.jpeg)](http://62.182.86.140/main/2622000/453a858931360224bd2485e4a61295ff/Stefan%20Jansen%20-%20Machine%20Learning%20for%20Algorithmic%20Trading_%20Predictive%20models%20to%20extract%20signals%20from%20market%20and%20alternative%20data%20for%20systematic%20trading%20strategies%20with%20Python%2C%202nd%20Edition-Packt%20Publish.pdf)
 
 
 ### [Algorithms](#algorithms)
@@ -42,14 +48,14 @@ If you have recs leave a comment below
 * [![link not found](/assets/images/pfds.jpg)](http://booksdl.org/get.php?md5=b9cfbfbddf11107f53d1ee7448006453)
 
 
-### [Paradigms](#computational-models)
+### [Programming Paradigms](#computational-models)
 
 * [![link not found](/assets/images/ctmcp.jpg)](http://booksdl.org/get.php?md5=010E3DFADD48D815CE185F9FFB8CDE25)
 
 * [![link not found](/assets/images/plp.jpg)](http://booksdl.org/get.php?md5=9006e3c672726689767509b65c889202)
 
 
-### [Programming](#programming)
+### [Software Design](#software-design)
 
 * (I don't like Clean Code) [![link not found](/assets/images/psd.jpg)](/assets/psd.pdf)
 
