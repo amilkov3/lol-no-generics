@@ -1,6 +1,6 @@
 main:
-  - title: "Bookshelf"
+  - title: "📚 Bookshelf"
     url: "/bookshelf"
-  - title: "Posts"
+  - title: "📄 Posts"
     url: "/posts"
 

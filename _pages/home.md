@@ -4,7 +4,7 @@ layout: single
 permalink: /
 ---
 
-Hi, I'm a software engineer based out of Atlanta, GA but currently living in Bulgaria. I'm interested in freelance (full-time only if the company allows me to work from Bulgaria) backend development in the domains of finance, crypto, and ML, but willing to work in any domain. My experience resides in distributed systems (I've worked on a variety of complex backend architectures), programming language theory (I've worked in every programming language paradigm), and finance (ML for trading, quantitative finance, valuation, etc)
+Hi, I'm a software engineer based out of Atlanta, GA but currently living abroad. I'm interested in remote c2c (Ibex Labs LLC, full-time only if the company allows me to work from abroad, at least for a large chunk of the year) backend eng roles in the domains of finance, crypto, and ML, but willing to work in any domain. My experience resides in distributed systems (I've worked on a variety of complex backend architectures), programming language theory (I've worked in nearly every programming language paradigm), and finance (self taught/no work experience yet: ML for trading, quantitative finance, valuation)
 
 <!---
 2019
