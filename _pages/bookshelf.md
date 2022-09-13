@@ -45,7 +45,6 @@ If you have recs leave a comment below
 * [![link not found](/assets/images/vmamtvoc.jpg)](http://booksdl.org/get.php?md5=6F1DA5A5AE0C9E92D45208B294118C56)
 And the [workbook](http://booksdl.org/get.php?md5=6F1DA5A5AE0C9E92D45208B294118C56) that comes with it
 
-
 ## [Investing](#investing)
 
 * [![link not found](/assets/images/ouows.jpg)](http://booksdl.org/get.php?md5=743ADBCDE11591CE5A9F685EF51D2928)
@@ -62,6 +61,11 @@ And the [workbook](http://booksdl.org/get.php?md5=6F1DA5A5AE0C9E92D45208B294118C
 
 * [![link not found](/assets/images/toegyen.jpg)](http://booksdl.org/get.php?md5=1E5140859130091B8BF3F440B372277E)
 
+# [Crypto](#crypto)
+
+* [![link not found](/assets/images/badl.jpeg)](http://62.182.86.140/main/3094000/d52d985b4b3970b396f9b7f6d2aa3d8e/Alexander%20Lipton%2C%20Adrien%20Treccani%20-%20Blockchain%20and%20Distributed%20Ledgers_%20Mathematics%2C%20Technology%2C%20and%20Economics-World%20Scientific%20Publishing%20%282021%29.pdf)
+
+this is like Tannenbaum's distributed systems book but for crypto and ties everything into the current financial system
 
 
 # [Algorithms](#algorithms)
