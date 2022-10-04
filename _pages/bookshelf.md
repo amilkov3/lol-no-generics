@@ -20,6 +20,8 @@ If you have recs leave a comment below
 
 * [![link not found](/assets/images/ds.jpg)](http://93.174.95.29/main/2212000/6f16b914b76912b21f363fcebeaba4d6/Maarten%20van%20Steen%2C%20%20Andrew%20S.%20Tanenbaum%20-%20Distributed%20Systems-CreateSpace%20IPP%20%282017%29.pdf)
 
+a little out of date, though this is also a pro because it covers topics that are quite integral but maybe not "cool" to know in the modern development's panoply of high level frameworks and tooling
+
 * [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf) - Joe Armstrong's, the creator of Erlang, 2003 thesis that lays out a set of invariants that a fault tolerant distributed system should maintain along with an introduction to Erlang and how it meets said invariants
 
 * [![link not found](/assets/images/ddia.jpg)](http://booksdl.org/get.php?md5=BF7C3FECFE5DCFFCEB170B2AA6D34C31)
@@ -27,6 +29,8 @@ If you have recs leave a comment below
 * [![link not found](/assets/images/nfmm.jpg)](http://booksdl.org/get.php?md5=4e37626add641c9f83708d726ba2a13a)
 
 * [![link not found](/assets/images/di.jpg)](http://93.174.95.29/main/2493000/902ba0835e8e3e0262c236e3198e1ef5/Alex%20Petrov%20-%20Database%20Internals_%20A%20Deep%20Dive%20Into%20How%20Distributed%20Data%20Systems%20Work-O%27Reilly%20Media%20%282019%29.pdf)
+
+* [![link not found](/assets/images/uds.jpeg)](http://62.182.86.140/main/3242000/6bf4a626644407a7f2719b23a57d665c/Roberto%20Vitillo%20-%20Understanding%20Distributed%20Systems%20-%202nd%20Edition%20%282022%29.pdf)
 
 
 # [Finance](#finance)
