@@ -6,19 +6,20 @@ permalink: /
 
 Hi, I'm a software engineer based out of Atlanta, GA but currently living mostly abroad.
 
-I'm interested in backend eng roles via either
-* remote c2c against my LLC: Ibex Labs, amilkov@eyebex.tech
-* full-time if the company allows me to work from abroad, at least for a large chunk of the year
+I'm interested in backend (or fullstack) eng roles via either
+* remote c2c against my LLC: <a href='labs.ibex.trade' target="_blank">Ibex Labs</a>. reach me at <a href='mailto:alex@ibex.trade' target='_blank'>alex@ibex.trade</a>
+* full-time if the company allows me to work abroad, at least for a large chunk of the year
 
 in the domains of finance, crypto, and ML, but willing to work in any domain.
 
 My experience resides in
 * distributed systems: I've worked on a variety of complex backend architectures
+* blockchain: I've implemented web3 services against the Solana blockchain
 * programming language theory: I've worked in nearly every programming language paradigm
   * functional (typed and dynamic): Haskell, Scala, Clojure
     * systems: Rust
   * get things done: Python, Golang, JavaScript/Typescript
-  * ugh: Java
+  * since the industry continues to insist 🙄...: Java
 * finance: I'm self taught here (but also self taught in programming and have had no problems there 🙂) and have no work experience as of yet: ML for trading, quantitative finance, valuation, economics
 
 <!---

@@ -35,6 +35,11 @@ a little out of date, though this is also a pro because it covers topics that ar
 
 # [Finance](#finance)
 
+## [Economics](#economics)
+
+* [![link not found](/assets/images/tcwo.jpeg)](http://62.182.86.140/main/3082000/b48e961a75aed5aa0077c1844aa42d8c/Ray%20Dalio%20-%20The%20Changing%20World%20Order_%20Where%20we%20are%20and%20where%20we%27re%20going%20%282020%29.epub)
+
+
 ## [Financial Machine Learning](#finml)
 
 * [![link not found](/assets/images/mlfam.jpeg)](http://62.182.86.140/main/2530000/2c52dc9e220faf7b0e2ea4a3dbb7ec84/%28Elements%20in%20Quantitative%20Finance%29%20Marcos%20M.%20L%C3%B3pez%20de%20Prado%20-%20Machine%20Learning%20for%20Asset%20Managers-Cambridge%20University%20Press%20%282020%29.pdf)
